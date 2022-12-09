@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="#FDD835"
+        android:gravity="center"
+        android:text="Sinh vien"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+
+        android:gravity="center"
+        android:textSize="28sp" />
+    <EditText
+        android:id="@+id/dialogInputMaSV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ma SV"
+        android:inputType="number"
+        android:minHeight="48dp"/>
+    <EditText
+        android:id="@+id/dialogInputTenSV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="top|left"
+        android:hint="Ten SV"
+        android:inputType="text"
+        android:minHeight="48dp"/>
+    <EditText
+        android:id="@+id/dialogInputDtB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="DTB"
+        android:inputType="number"
+        android:minHeight="48dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerKhoa"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"/>
+    <Button
+        android:id="@+id/dialogSaveStudent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#8E24AA"
+
+        android:text="Save"
+        android:textSize="25sp"/>
+
+</LinearLayout>
